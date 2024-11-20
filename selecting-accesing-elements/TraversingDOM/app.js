@@ -1,21 +1,24 @@
-// const parent = document.getElementById("parent");
-// console.log(parent);
+const parent = document.getElementById("parent");
+console.log(parent);
 
-// const children = parent.children;
-// console.log(children);
+const children = parent.children;
+console.log(children);
 
-// const firstChild = parent.firstElementChild;
+const firstChild = parent.firstElementChild;
 
-// console.log(firstChild);
+console.log(firstChild);
 
-// const lastChild = parent.lastElementChild;
-// console.log(lastChild);
+const lastChild = parent.lastElementChild;
+console.log(lastChild);
 
-// const previousSibling = parent.previousElementSibling;
-// console.log(previousSibling);
+const previousSibling = parent.previousElementSibling;
+console.log(previousSibling);
 
-// const nextSibling = parent.nextElementSibling;
-// console.log(nextSibling);
+const nextSibling = parent.nextElementSibling;
+console.log(nextSibling);
+
+
+// ---  otros métodos: ----
 
 // children; // live HTMLCollection
 // childNodes; // live NodeList
@@ -28,7 +31,7 @@
 // nextSibling; // live NodeList
 // nextElementSibling; // non-live HTMLCollection
 
-const children2 = document.querySelector("li");
+const children2 = document.querySelector("li"); // solo trae el primer elemento
 
 console.log(children2);
 
